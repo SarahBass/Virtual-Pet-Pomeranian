@@ -1,0 +1,59 @@
+----------DESCRIPTION:----------
+
+Virtual Pet Pomeranian is a cute , animated dog on your watch that you can power up with your steps! 
+
+Modeled after a real Pomeranian, this virtual dog has a grumpy, but cute personality. 'Mr. Crunchy', a real Pomeranian puppy from California, was used as the inspiration and model for the design. The Pomeranian is a blue merle, and has two blue eyes giving it a look of both a Husky and Aussie.  
+
+Have fun exercising as this little dog gains hearts while you reach your goals. The virtual dog has three modes: sitting, walking, and sleeping. Based on the number of hearts you earn, the dog will change what it does and will have different moods.
+
+Check out our other Virtual Dog Clockfaces : https://gallery.fitbit.com/developer/850971bc-7265-471f-81f9-608d179f4ddd. Each dog has a different personality!
+
+~*-------------------Monthly Themes:-----------------------*~
+
+January: Snow, Penguin, Ice cream
+
+February: Turtle, Tennis Ball, Bear
+
+March: Clovers, Rainbow, Bugs
+
+April: Easter, Tennis Ball, Cherry Blossom
+
+May: Fruit, Cinco De Mayo, Veggies
+
+June: School, Graduate, Study
+
+July: Party, Sun, Picnic
+
+August: Beach, Sand, Island
+
+September: School, Apples, Honey
+
+October: Witch, Wizard, Pumpkin, Treasure
+
+November: Leaves, Cold Weather, Turkey
+
+December: Santa, Yule, Hanukkah
+
+__________________STATS_________________
+
+Clock: 12 Hour or 24 Hour
+
+Walk: Miles or KM
+
+Fire : Total Daily Calories Burned
+
+Stairs: Total Daily Floors
+
+Bolt: Total Daily Active Minutes
+
+Heart : Heart Rate (Click Star to Start)
+
+Footprints: Total Daily Steps
+
+Food Bowl: Percent% of your goal reached
+
+_______________________________________
+
+Settings: If set active, goal, and calorie permissions are not turned on, it will print "Nan", "Null", or "0". Heart Rate activated when you click Star, click again to turn off to save battery. Heart monitor turns on when it senses change.
+
+Download time may be slow. Connect to charger with a good wifi connection for best results. Website link for Download Support provided.
