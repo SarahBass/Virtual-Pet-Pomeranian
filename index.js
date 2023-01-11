@@ -1,6 +1,6 @@
 /*
 ----------------------------------------------
- *  Project:    Virtual Pet Shiba Clock Face
+ *  Project:    Virtual Pet Pom Clock Face
  *  Mail:       darahbass@gmail.com
  *  Github:     SarahBass
  ---------------------------------------------
@@ -139,7 +139,7 @@ clock.ontick = (evt) => {
                   }
   
   //Change Foreground
-                if (((util.zeroPad(hours) >= 0) && (util.zeroPad(hours) < 6)) || (util.zeroPad(hours) >= 22)){ 
+                if (((util.zeroPad(hours) >= 0) && (util.zeroPad(hours) =< 5)) || (util.zeroPad(hours) >= 20)){ 
                   monthobject.image="background/"+ months+ "2.png";
                   if (userActivity.adjusted.steps/goals.steps > 0.8){             
                     if ( parseInt(mins/10) == 1 ){
@@ -185,7 +185,7 @@ clock.ontick = (evt) => {
                     else if (parseInt(mins/10) == 0 ){ 
                       if (seconds % 2 == 0){dog.image = "dog/dog2sad1.png";}
                       else{dog.image = "dog/dog2breath1.png";}}
-     } else if (((util.zeroPad(hours) >= 6) && (util.zeroPad(hours) < 13 )) || ((util.zeroPad(hours) >= 19) &&       (util.zeroPad(hours) < 22 ))){
+     } else if (((util.zeroPad(hours) > 5 ) && (util.zeroPad(hours) < 12 )) || ((util.zeroPad(hours) > 18) &&       (util.zeroPad(hours) < 20 ))){
                                    
                                monthobject.image="background/"+ months+ "0.png";
                                  if (userActivity.adjusted.steps/goals.steps > 0.5){             
@@ -244,7 +244,7 @@ clock.ontick = (evt) => {
                    else{dog.image = "dog/dog0happy3.png";}}
                                 
                               }
-         else if ((util.zeroPad(hours) >= 13) && (util.zeroPad(hours) < 19 )){
+         else if ((util.zeroPad(hours) >= 12) && (util.zeroPad(hours) =< 18 )){
                    monthobject.image="background/"+ months+ "1.png";  
                                 
                    if (userActivity.adjusted.steps/goals.steps > 0.7){             
