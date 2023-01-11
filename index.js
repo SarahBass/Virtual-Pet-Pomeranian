@@ -305,7 +305,7 @@ clock.ontick = (evt) => {
                               }
                                  else {
                                    if (seconds % 2 == 0){dog.image = "dog/dog2start.png";}
-                                   else{dog.image = "dog/dog2happy0.png";}}
+                                   else{dog.image = "dog/dog2happy0.png";}
                                       monthobject.image="blank.png";}
   
    /*--- OPTION 2: TIME IMAGES FOR 12 HOUR CLOCK---*/
