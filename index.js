@@ -279,31 +279,33 @@ clock.ontick = (evt) => {
                    if (seconds % 2 == 0){dog.image = "dog/dog1start.png";}
                    else{dog.image = "dog/dog1sad0.png";}}
                  else if (parseInt(mins/10) == 2 ){
-                   if (seconds % 2 == 0){dog.image = "dog/dog1start.png";}
+                   if (seconds % 2 == 0){dog.image = "dog/dog1happy1.png";}
                    else{dog.image = "dog/dog1sad1.png";}}
                                      
                  else if ( parseInt(mins/10) == 3 ){
-                   if (seconds % 2 == 0){dog.image = "dog/dog1start.png";}
-                   else{dog.image = "dog/dog1sad2.png";}} 
+                   if (seconds % 2 == 0){dog.image = "dog/dog1sad1.png";}
+                   else{dog.image = "dog/dog1sad0.png";}} 
                  
                  else if (parseInt(mins/10) == 4 ){ 
-                                      if (seconds % 2 == 0){dog.image = "dog/dog1start.png";}
-                   else{dog.image = "dog/dog1sad3.png";}}
+                                      if (seconds % 2 == 0){dog.image = "dog/dog1shufflekick.png";}
+                   else{dog.image = "dog/dog1shufflemad.png";}}
                  
                  else if (parseInt(mins/10) == 5 ){
                                     if (seconds % 2 == 0){dog.image = "dog/dog1start.png";}
-                   else{dog.image = "dog/dog1sad4.png";}}
+                   else{dog.image = "dog/dog1sad2.png";}}
 
                  else if (parseInt(mins/10) == 6 ){ 
-                                      if (seconds % 2 == 0){dog.image = "dog/dog1sad2.png";}
-                   else{dog.image = "dog/dog1sad3.png";}}
+                                      if (seconds % 2 == 0){dog.image = "dog/dog1sad0.png";}
+                   else{dog.image = "dog/dog1sad1.png";}}
                  
                  else if (parseInt(mins/10) == 0 ){ 
-                                      if (seconds % 2 == 0){dog.image = "dog/dog1sad1.png";}
+                                      if (seconds % 2 == 0){dog.image = "dog/dog1sad2.png";}
                    else{dog.image = "dog/dog1fart.png";}}
                                 
                               }
-                                 else {dog.image = "dog/dog2start.png" ;
+                                 else {
+                                   if (seconds % 2 == 0){dog.image = "dog/dog2start.png";}
+                                   else{dog.image = "dog/dog2happy0.png";}}
                                       monthobject.image="blank.png";}
   
    /*--- OPTION 2: TIME IMAGES FOR 12 HOUR CLOCK---*/
