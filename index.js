@@ -118,7 +118,7 @@ clock.ontick = (evt) => {
   else if ((userActivity.adjusted.steps < goals.steps)&& (userActivity.adjusted.steps > ((goals.steps*4)/5)))
            {hearts.image = "hearts/heart4.png";}
   else if (userActivity.adjusted.steps > goals.steps){hearts.image = "hearts/heart5.png";}
-  else {hearts.image = blank.png}
+  else {hearts.image = "blank.png";}
   
   //Change Background
   
